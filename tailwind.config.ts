@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Government theme colors
+				government: {
+					primary: '#FF671F', // Saffron
+					secondary: '#046A38', // Green
+					blue: '#06038D', // Navy Blue 
+					light: '#f1f5f9', // Light background
 				}
 			},
 			borderRadius: {
